@@ -156,6 +156,6 @@ int main() {
     duration<double> elapsed = end - start;
     cout << COLOR_GREEN << "[DONE] Processed " << fileCount << " file(s) in "
         << fixed << setprecision(1) << elapsed.count() << "s." << COLOR_RESET << endl;
-
+    system("pause");
     return 0;
 }
